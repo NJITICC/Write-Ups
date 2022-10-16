@@ -5,14 +5,19 @@
 
 We are given an image, doggo.jpg, and a link to a GhostTown thread.
 
-The challenge: 
+### The challenge: 
+
+<img src="https://user-images.githubusercontent.com/73041922/196058397-b4d1cdbd-4548-4f63-a304-d2fdfcf7b872.jpg" style="max-width: 500px;">
 
 We found this image on Ghost Town. We think bumpyhassan hid some information here. Can you see what information he hid?
 
 ### The image:
 
+<img src="https://user-images.githubusercontent.com/73041922/196058444-e96875f3-1b77-4e07-9d43-d12b95879ab8.jpg" style="max-width: 500px;">
 
 ### The thread:
+
+<img src="https://user-images.githubusercontent.com/73041922/196058448-a097fb39-fdcc-425c-aa8b-eb5e30ff1004.jpg" style="max-width: 500px;">
 
 
 
@@ -40,7 +45,11 @@ Another one of De Monne's employees was compromised. DEADFACE left a GIF image o
 
 ### The GIF
 
+<img src="https://user-images.githubusercontent.com/73041922/196058517-34eab314-1f4d-4b81-b516-ebb7fb9d458e.gif" style="max-width: 500px;">
+
 ### Challenge screenshot:
+
+<img src="https://user-images.githubusercontent.com/73041922/196058561-bfa12e76-66c1-47ca-9cf9-b685e99fce37.jpg" style="max-width: 500px;">
 
 ### Solution
 
@@ -50,3 +59,34 @@ Once the gif was split, I was able to see the flag in clear text as flag{c0rrupt
 
 ### The flag, before edits:
 
+<img src="https://user-images.githubusercontent.com/73041922/196058575-45ea99d4-9808-4c7d-87ce-bcf3c8b8da6a.jpg" style="max-width: 500px;">
+
+<!--
+<img src="" style="max-width: 500px;">
+<img src="" style="max-width: 500px;">
+<img src="https://user-images.githubusercontent.com/73041922/196058650-f2ffc322-a9a9-4493-9c9d-05f10e5c8eff.png" style="max-width: 500px;"> -->
+
+## Eye Know, Do You?
+
+### The Challenge
+
+lamia415 sent a warning email to other De Monne employees with an image attached. The employees, however, can't figure out what the intended message is. Can you reveal the message and find the flag?
+
+<img src="" style="max-width: 500px;">
+
+### The image
+<img src="https://user-images.githubusercontent.com/73041922/196058652-ae12ec99-1c99-43c9-b7e8-0549a676d18d.jpg" style="max-width: 500px;">
+
+### The solution
+
+To solove this, you needed to mess with the colors. I used <a href="https://aperisolve.com">Aperi solve</a> to work this one out. Aperisolve checks for superimposed, red, green, and blue filters. It also checks for file corruption and runs it through other checkers. As you can see, some text started to become visible.
+
+<img src="https://user-images.githubusercontent.com/73041922/196058856-598c7c20-954a-47c3-9f38-f8d45d86c3bc.jpg" style="max-width: 500px;">
+
+It was still pretty hard to read, but I had an idea of what it said. I edited it through the basic windows photo editor, and got a slightly clearer result.
+
+### The solved image
+
+<img src="https://user-images.githubusercontent.com/73041922/196058650-f2ffc322-a9a9-4493-9c9d-05f10e5c8eff.png" style="max-width: 500px;">
+
+The flag: flag{Deadface_Knows_All_Sees_All}. 
