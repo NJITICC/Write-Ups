@@ -9,14 +9,14 @@ The challenge:
 
 We found this image on Ghost Town. We think bumpyhassan hid some information here. Can you see what information he hid?
 
-# The image:
+### The image:
 
 
-# The thread:
+### The thread:
 
 
 
-## Solution
+### Solution
 
 To solve this, I used steghide and a tool online to extract metadata.
 
@@ -29,3 +29,24 @@ steghide extract -sf doggo.jpg
 This extracted a pdf titled "itsasecret.pdf", which contained the flag:
 
 flag{whos_A_g00d_boi_bork_bork}
+
+
+
+## Lifes a Glitch
+
+### Challenge:
+
+Another one of De Monne's employees was compromised. DEADFACE left a GIF image of what looks like a glitched face. They claim there is a flag in the GIF. See if you can use your repertoire to find the flag hidden in the gif.
+
+### The GIF
+
+### Challenge screenshot:
+
+### Solution
+
+This was pretty easy to solve, once you did the first one. By uploading the gif to ezgif.com I was able to split the gif by frame and remove any image optimizations.
+
+Once the gif was split, I was able to see the flag in clear text as flag{c0rrupt3d!}. I did edit the flag a bit more to make it more visible.
+
+### The flag, before edits:
+
