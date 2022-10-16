@@ -1,0 +1,31 @@
+# Deadface 2022 Steganography Challenges
+
+
+## The Goodest boy
+
+We are given an image, doggo.jpg, and a link to a GhostTown thread.
+
+The challenge: 
+
+We found this image on Ghost Town. We think bumpyhassan hid some information here. Can you see what information he hid?
+
+# The image:
+
+
+# The thread:
+
+
+
+## Solution
+
+To solve this, I used steghide and a tool online to extract metadata.
+
+The metadata revealed the password was borkbork. 
+
+I took this password and extracted a hidden file within doggo.jpg using the following command:
+
+steghide extract -sf doggo.jpg
+
+This extracted a pdf titled "itsasecret.pdf", which contained the flag:
+
+flag{whos_A_g00d_boi_bork_bork}
