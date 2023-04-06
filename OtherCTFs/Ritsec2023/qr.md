@@ -10,8 +10,8 @@ My stupid kid drew on this QR code with his crayons. Figure it out. He was a mis
 
 ## What's Provided:
 
-One photo: qr.png
-
+One photo: qr.png 
+<img src="https://user-images.githubusercontent.com/73041922/230272893-664d8ea8-e0a9-4aa9-ae7d-78b587b2b29e.png" width="400px" height="400px">
 
 # Steps:
 
@@ -30,3 +30,9 @@ So rather than waste three more hours of my life, I found a new tool: [QRazyBox]
 
 Eventually I got far enough to uncover the flag. 
 RS{CUE_ARE_D3C0D3D}
+
+Here's the progress of my frankenstein QR:
+
+<img src="https://user-images.githubusercontent.com/73041922/230273182-bff95a4e-239e-4e4b-bf0d-dd94c6985e0a.png" width="400px" height="400px">
+<img src="https://user-images.githubusercontent.com/73041922/230273184-1dcad6cd-e0d4-4e4a-b724-5f063b377240.png" width="400px" height="400px">
+<img src="https://user-images.githubusercontent.com/73041922/230273186-62a57f3a-8e35-421e-872d-01f09958938f.png" width="400px" height="400px">
